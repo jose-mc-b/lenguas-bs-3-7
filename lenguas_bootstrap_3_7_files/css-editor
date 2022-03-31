@@ -1,0 +1,250 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+nav{
+	background:white;
+	height: 80px;
+	width: 100%;
+}
+.enlace{
+	position: absolute;
+	padding: 18px 50px;
+}
+.logo{
+     width: 210px;
+    height: 70px;
+    float: left;
+    display:flexbox;
+  margin: 5px 0 0 120px; 
+}
+nav ul{
+	float: right;
+	margin-right: 500px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+#colores{
+margin:10px 0 0  90px;
+}
+nav ul li a{
+	font-size: 18px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	color:#896239;
+       font: Helvetica Now Text Regular;
+}
+li a.active, li a hover{
+	background: green;
+	transition: .5s;
+}
+.busqueda{
+ margin: -45px 170px 0px 680px;  
+}
+#search{
+    text-align: left;
+    display:flexbox;
+    font-family: Helvetica Now Text Extra Light;
+    font-size: 14px;
+    font-weight:normal;
+  }
+  /*caja de busqueda*/
+  form {
+    display:flex;
+    float: right;
+    background: rgb(215, 212, 212);
+    padding: 5px 10px 7px 20px;
+    border-radius: 50px;
+    border: 2px solid #cad3dc; 
+    width: 25%;
+    display:flexbox;
+  margin:50px 0 0 90px;
+  }
+   form input{
+     border: hidden ;
+     background: transparent;
+     font-weight: bold;
+     padding-left: 15px;
+     background-size: 20px;
+     background-repeat: no-repeat;
+     width: 100%;
+     border-radius: 15px;
+     text-align: center;
+     display:flexbox;
+   }
+.checkbtn{
+	font-size: 30px;
+	color: #58662E;
+	float: right;
+	line-height: 80px;
+	cursor: pointer;
+	margin: -5px 70px;
+	display: none;
+}
+#check{
+	display: none;
+}
+section{
+	background: url("https://reinamares.hypotheses.org/files/2020/02/Sector_Izquierdo-scaled.jpg");
+	background-size: cover;
+	background-position: center center;
+	height: calc(80vh - 80px);
+}
+.container{
+ background:transparent !important;
+font-size:18px;
+  }  
+.container a{
+margin-top:20px;
+    color: white;
+  }
+
+   a{
+    color:rgb(218, 31, 31);
+   font-size: 20px;
+  }
+  
+  div a {
+      color: white;
+  }
+  #caja-vacia {
+    width: 100%;
+    height: 250px;
+    display: block;
+    padding: 10px;
+    margin: 0 15px 0 0;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+  }
+  #caja-vacia2{
+    width: 100%;
+    height: 100px;
+    display: block;
+    padding: 10px;
+    margin: 0 15px 0 0;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+
+  }
+  #divPadre {
+    height:100px;
+    width:100%;
+    text-align:center;
+}
+#divHijo {
+    height:100%;
+    width: 38%;
+    margin:0px auto;
+    color: white;
+}
+#menu{
+  width: 900px;
+  float: right;
+background:transparent;
+
+}
+
+#menu ul {
+list-style:none;
+margin:0;
+padding:0;
+}
+
+#menu ul a {
+display:block;
+color:black;
+font-weight:400;
+font-size:21px;
+padding:4px;
+letter-spacing:0px;
+margin: 10px 0 0 50px;
+color: white; 
+}
+
+#menu ul li {
+position:relative;
+float:left;
+margin:0 0 0 30px;
+padding:0;
+}
+.container-fahho{
+  padding: 0 95px !important;
+  text-align: left;
+  padding-top: 60px;
+}
+
+.media {
+  background-color: #ebebeb;
+  width: 800px; 
+  padding: 70px;
+  height: 10%; 
+}
+
+.media img {
+  width: 300px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white; 
+}
+.dropdown-menu{
+  background-color: transparent;
+  border: transparent;
+  border: none;
+  text-align: center;
+  float: right;
+  padding-right: 100px;
+}
+.dropdown-menu  > li > a:hover {
+  background-image: none;
+  background-color: transparent;
+}
+.media-body p{
+  margin: 10px 0 0 80px;
+  font-size: 20px;;
+}
+p{
+  font-size: 20px;
+}
+#Etiqueta{
+  color:rgb(115, 161, 45);
+  font-size: 30px;
+  font-family:Garamond;
+  font-weight: 800;
+}
+#Etiqueta p{
+  color: black;
+  font-family:normal;
+  text-align: left;
+  font-size: 25px;
+}
+#colecciones1{
+  color: rgb(142, 38, 38);
+  font-size: 30px;
+  font-weight: 800;
+}
+#share {
+ width: 90px;
+ height: 90px;
+  background:#916F68;
+  border-radius: 900px;
+  margin: 10px 0 0 200px;
+}
+#lenguas{
+  color: rgb(151, 68, 9);
+  font-size: 30px;
+  font-weight: 800;
+}
+#footer{
+  background: rgb(205, 189, 170);
+ width: 100%;
+ }
